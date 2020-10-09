@@ -6,7 +6,7 @@ import './style/style.scss';
 const TOTAL_QUESTIONS = 10;
 
 
-export const App: React.FC = ({}) => {
+const App: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [questions, setQuestion] = useState<QuestionState[]>([]);
   const [number, setNumber] = useState<number>(0);
