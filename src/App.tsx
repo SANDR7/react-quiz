@@ -5,7 +5,6 @@ import './style/style.scss';
 
 const TOTAL_QUESTIONS = 10;
 
-
 const App: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [questions, setQuestion] = useState<QuestionState[]>([]);
